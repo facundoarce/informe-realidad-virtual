@@ -1,0 +1,24 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {spanish}{}
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Antecedentes}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Propuesta}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Descripción de la aplicación}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Hardware}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Software}{4}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Desarrollo de la aplicación}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Configuración}{5}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Configuración de Unity}{5}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Configuración de la Raspberry Pi}{5}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Seguimiento de movimiento}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Calibración}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Navegación}{11}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Navegación en minimapa}{11}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Navegación en realidad aumentada}{12}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5}Descarga de datos}{14}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Servidor en Raspberry Pi}{14}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Cliente en teléfono}{16}{subsubsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.6}Interfaz de usuario}{18}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Resultados}{20}{section.4}%
+\contentsline {section}{\numberline {5}Conclusiones}{21}{section.5}%

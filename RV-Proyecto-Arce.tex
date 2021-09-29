@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage{includes}
+
+\begin{document}
+\selectlanguage{spanish}
+
+% Cover
+\import{sections/}{cover}
+\newpage
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\setlength\headheight{1.5cm}
+\lhead{PROYECTO DE REALIDAD VIRTUAL\\ASISTENTE DE NAVEGACIÓN EN INTERIORES\\FACUNDO ARCE VIEYRA}
+\rhead{\includegraphics[height=1.15cm]{logo-fing}}
+\cfoot{\thepage~ de \pageref{LastPage}}
+
+\pagenumbering{arabic}
+\singlespacing
+
+% Title
+\begin{center}
+\large
+\textbf{Proyecto de Realidad Virtual}
+
+\Large
+\textbf{ASISTENTE DE NAVEGACIÓN EN INTERIORES}
+\end{center}
+
+% Table of contents
+\doublespacing
+\bigskip
+\tableofcontents
+\clearpage
+
+% Body
+\onehalfspacing
+\import{sections/}{introduccion}
+\clearpage
+\import{sections/}{descripcion}
+\clearpage
+\import{sections/}{desarrollo}
+\clearpage
+\import{sections/}{resultados}
+\clearpage
+\import{sections/}{conclusiones}
+\clearpage
+
+%Bibliography
+\doublespacing
+\printbibliography
+
+\end{document}

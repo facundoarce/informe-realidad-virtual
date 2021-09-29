@@ -1,0 +1,32 @@
+\documentclass{article}
+\newenvironment{standalone}{\begin{preview}}{\end{preview}}
+\usepackage{../includes}
+
+\begin{document}
+\begin{standalone}
+
+  \section{Introducción}
+
+  \subsection{Antecedentes}
+
+  Aplicaciones basadas en posicionamiento satelital como Google Maps son muy útiles para obtener direcciones de navegación dentro de una ciudad, de un país, o incluso entre países.
+  Pero a menor escala, para navegación dentro de edificios en donde puede haber numerosas habitaciones y pasillos, como un museo, un hospital, una planta industrial o un centro comercial, la tecnología GPS no podría aplicarse debido a la baja precisión, del orden del metro, y a la pobre recepción de señal dentro de edificios.
+
+  Existen distintos métodos para solucionar el problema de la navegación en interiores.
+  Entre ellos, se pueden mencionar técnicas de triangulación con la intensidad de señales de Wi-Fi recibidas, estimación con sensores de odometría como acelerómetros, magnetómetros y giróscopos, detección directa de etiquetas de ubicación por infrarrojo, ultrasonido, Bluetooth o sensores ópticos y, por último, técnicas de visión artificial.
+  Muchas veces estos métodos se combinan para lograr mejores resultados.
+
+  A nivel comercial, aún no existe alguna solución ampliamente utilizada para la navegación de interiores.
+  Pero existen investigaciones y proyectos particulares que ofrecen diversas soluciones a este problema.
+  Se puede mencionar a \citeauthor{slamNavARM} \cite{slamNavARM} y a \citeauthor{indoorNavRacoons} \cite{indoorNavRacoons} que han propuesto navegación usando métodos de SLAM con cámaras y sensores inerciales aprovechando la tecnología \textit{ARCore} de Google.
+  Sus trabajos sirven de guía para el presente proyecto.
+
+  \subsection{Propuesta}
+
+  En este proyecto, se propone realizar una aplicación de realidad aumentada para teléfonos para la asistencia de navegación en interiores.
+
+  En ella, el usuario selecciona a dónde quiere dirigirse dentro de un edificio y se le indicará las direcciones a seguir de dos formas.
+  Por un lado, mediante flechas en un entorno de realidad mixta. Por otro lado, por medio de un minimapa virtual que le indicará la posición actual y el camino a seguir.
+
+\end{standalone}
+\end{document}

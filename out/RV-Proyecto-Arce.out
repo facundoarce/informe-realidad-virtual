@@ -1,0 +1,21 @@
+\BOOKMARK [1][-]{section.1}{Introducci\363n}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Antecedentes}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Propuesta}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Descripci\363n de la aplicaci\363n}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Hardware}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Software}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Desarrollo de la aplicaci\363n}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Configuraci\363n}{section.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Configuraci\363n de Unity}{subsection.3.1}% 9
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Configuraci\363n de la Raspberry Pi}{subsection.3.1}% 10
+\BOOKMARK [2][-]{subsection.3.2}{Seguimiento de movimiento}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.3}{Calibraci\363n}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.4}{Navegaci\363n}{section.3}% 13
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Navegaci\363n en minimapa}{subsection.3.4}% 14
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Navegaci\363n en realidad aumentada}{subsection.3.4}% 15
+\BOOKMARK [2][-]{subsection.3.5}{Descarga de datos}{section.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.5.1}{Servidor en Raspberry Pi}{subsection.3.5}% 17
+\BOOKMARK [3][-]{subsubsection.3.5.2}{Cliente en tel\351fono}{subsection.3.5}% 18
+\BOOKMARK [2][-]{subsection.3.6}{Interfaz de usuario}{section.3}% 19
+\BOOKMARK [1][-]{section.4}{Resultados}{}% 20
+\BOOKMARK [1][-]{section.5}{Conclusiones}{}% 21

@@ -1,0 +1,48 @@
+\documentclass{article}
+\newenvironment{standalone}{\begin{preview}}{\end{preview}}
+\usepackage{../includes}
+
+\begin{document}
+\begin{standalone}
+
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} cc}
+    \includegraphics[width=0.49\linewidth, height=18mm, keepaspectratio]{logo-uncuyo-long.png}&
+    \includegraphics[width=0.49\linewidth, height=18mm, keepaspectratio]{logo-fing.png}\\
+  \end{tabular*}
+
+  \vspace{4cm}
+
+  \parbox{\textwidth}{
+  \begin{center}
+    \huge \textbf{%
+    Proyecto de Realidad Virtual\\[1.5ex]
+    }
+    \HUGE \textbf{%
+    ASISTENTE DE NAVEGACIÓN EN INTERIORES\\
+    }
+  \end{center}
+  }
+
+  \vfill
+
+  {\fontsize{12}{12} \selectfont%
+  \begin{tabular}{l}
+    Autor: Facundo Arce Vieyra\\[1.5ex]
+    Legajo: 10546\\[1.5ex]
+    Profesor: Javier Rosenstein\\
+  \end{tabular}
+  }\\
+
+  \vspace{0.75cm}
+
+  {\fontsize{12pt}{12} \selectfont%
+  \begin{tabular}{lcl}
+    Mendoza, Argentina\\[1.5ex]
+    September 2021\\
+  \end{tabular}
+  }
+
+  \pagenumbering{gobble}
+
+\end{standalone}
+\end{document}

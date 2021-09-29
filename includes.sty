@@ -1,0 +1,117 @@
+% Packages needed
+% \usepackage[a4paper, includeheadfoot, headheight=1.5cm, left=2.4cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+\usepackage[a4paper, includeheadfoot, margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage[T1]{fontenc} % (needed for matlab code) % install cm-unicode to avoid blurry fonts
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{listings}
+\usepackage{textcomp} % to use upquote in listings
+% \usepackage[cp1251]{inputenc}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{csquotes}
+\usepackage{standalone}
+\usepackage{import}
+\usepackage{preview}
+\usepackage[11pt]{moresize} % adds \HUGE and \ssmall
+\usepackage[section]{placeins} % para separar floats entre secciones
+\usepackage{tikz} % custom graphics
+\usepackage{graphicx} % default tables style
+\usepackage{booktabs} % booktabs tables style
+\usepackage{multirow}
+\usepackage{amsmath} % math functions
+\usepackage{upgreek} % non-italic greek letters
+\usepackage{subcaption} % subfigures
+\usepackage{amssymb} % \mathbb{} for real numbers symbol
+\usepackage{textcomp} % so gensymb doesn't throw exceptions
+\usepackage{gensymb} % for \degree
+\usepackage[backend=bibtex, sorting=none]{biblatex} % cites (add style=alphabetic for alphabetic references)
+\usepackage{mathtools} % mathematical tools to use with amsmath
+\usepackage{lmodern,textcomp} % for euro symbol
+\usepackage{bm} % \bm for bold math symbols
+\usepackage{siunitx}  % for units in equations as seen at https://tex.stackexchange.com/questions/166580/writing-an-equation-with-the-units-positioned-off-right
+\usepackage{fancyhdr} % header and footer
+\usepackage{lastpage}
+\usepackage{wrapfig}
+\usepackage[numbered,framed]{matlab-prettifier} % for matlab code
+\usepackage{animate} % animaciones
+\usepackage{todonotes} % \todo
+\usepackage{xr} % external references
+\usepackage{hyperref}
+% \usepackage[numbers]{natbib}
+\usepackage[spanish]{cleveref} % for clever references (must be the last)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\titlespacing*{\section}      {0em}{.75em}{.5em}
+\titlespacing*{\subsection}   {0em}{.50em}{.4em}
+\titlespacing*{\subsubsection}{0em}{.50em}{.4em}
+\titlespacing*{\paragraph}    {0em}{.25em}{.25em}
+
+%\setlength{\parskip}{1em}
+\setlength{\parindent}{2em}
+% \linespread{1.3}
+
+\lstset{aboveskip=1em,belowskip=1em}
+
+
+\graphicspath {{images/}{../images/}} % {images/} for main {../images/} for sections
+
+\addbibresource{references.bib}
+% \addbibresource{../references.bib}
+
+\crefname{table}{tabla}{tablas} % renombra "cuadro" por "tabla"
+
+% \newlength{\cellwidth}
+% \settowidth{\cellwidth}{$\displaystyle a_{1}\cos{\left(q_1\right)}\quad$} % para controlar ancho de celdas
+
+\newcommand{\Lagr}{\mathcal{L}} % lagrangian symbol
+\newcommand{\real}{\mathbb{R}}  % Real number symbol
+\newcommand{\nat}{\mathbb{N}}  % Natural number symbol
+
+\renewcommand{\lstlistingname}{Listado}
+\lstset{
+  style=Matlab-editor,
+  basicstyle=\ttfamily\small,
+  columns=flexible,
+  upquote = true,
+  inputencoding = utf8,  % Input encoding
+  extendedchars = true,  % Extended ASCII
+  literate      =        % Support additional characters
+    {á}{{\'a}}1  {é}{{\'e}}1  {í}{{\'i}}1 {ó}{{\'o}}1  {ú}{{\'u}}1
+    {Á}{{\'A}}1  {É}{{\'E}}1  {Í}{{\'I}}1 {Ó}{{\'O}}1  {Ú}{{\'U}}1
+    {à}{{\`a}}1  {è}{{\`e}}1  {ì}{{\`i}}1 {ò}{{\`o}}1  {ù}{{\`u}}1
+    {À}{{\`A}}1  {È}{{\'E}}1  {Ì}{{\`I}}1 {Ò}{{\`O}}1  {Ù}{{\`U}}1
+    {ä}{{\"a}}1  {ë}{{\"e}}1  {ï}{{\"i}}1 {ö}{{\"o}}1  {ü}{{\"u}}1
+    {Ä}{{\"A}}1  {Ë}{{\"E}}1  {Ï}{{\"I}}1 {Ö}{{\"O}}1  {Ü}{{\"U}}1
+    {â}{{\^a}}1  {ê}{{\^e}}1  {î}{{\^i}}1 {ô}{{\^o}}1  {û}{{\^u}}1
+    {Â}{{\^A}}1  {Ê}{{\^E}}1  {Î}{{\^I}}1 {Ô}{{\^O}}1  {Û}{{\^U}}1
+    {œ}{{\oe}}1  {Œ}{{\OE}}1  {æ}{{\ae}}1 {Æ}{{\AE}}1  {ß}{{\ss}}1
+    {ç}{{\c c}}1 {Ç}{{\c C}}1 {ø}{{\o}}1  {Ø}{{\O}}1   {å}{{\r a}}1
+    {Å}{{\r A}}1 {ã}{{\~a}}1  {õ}{{\~o}}1 {Ã}{{\~A}}1  {Õ}{{\~O}}1
+    {ñ}{{\~n}}1  {Ñ}{{\~N}}1  {¿}{{?`}}1  {¡}{{!`}}1
+    {°}{{\textdegree}}1 {º}{{\textordmasculine}}1 {ª}{{\textordfeminine}}1
+}
+% Style for Matlab code
+% \lstMakeShortInline"
+% \lstset{
+%   style              = Matlab-editor,
+%   basicstyle         = \mlttfamily,
+%   escapechar         = ",
+%   % mlshowsectionrules = true,
+% }
+
+% Box inside align environment: https://tex.stackexchange.com/questions/30250/how-to-box-two-lines-inside-align
+\newcounter{markeq}
+\setcounter{markeq}{0}
+\newcommand{\pstrut}[1]{\vrule height3pt depth3pt width0pt #1 \fboxsep}
+\newcommand*\bmarkeq{\stepcounter{markeq}%
+  \tikz[remember picture]\node(startframe-\themarkeq){\pstrut{height}};%
+  \kern\fboxsep}
+\newcommand*\emarkeq{\kern\fboxsep
+  \begin{tikzpicture}[remember picture,overlay]
+    \node (endframe-\themarkeq){\pstrut{depth}};
+    \draw[,black,opacity=1] (startframe-\themarkeq.north)
+      rectangle (endframe-\themarkeq.south);
+  \end{tikzpicture}%
+}

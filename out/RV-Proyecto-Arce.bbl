@@ -1,0 +1,177 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{slamNavARM}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=MRL}{%
+         family={Mendez},
+         familyi={M\bibinitperiod},
+         given={Roberto\bibnamedelima Lopez},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MRL1}
+    \strng{fullhash}{MRL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://community.arm.com/developer/tools-software/graphics/b/blog/posts/indoor-real-time-navigation-with-slam-on-your-mobile}}
+    \field{title}{Navigation with SLAM on Your Mobile}
+    \field{year}{2018}
+  \endentry
+
+  \entry{indoorNavRacoons}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=HJ}{%
+         family={Hardy},
+         familyi={H\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HJ1}
+    \strng{fullhash}{HJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://blog.raccoons.be/arcore-powered-indoor-navigation-unity}}
+    \field{title}{Creating an ARCore powered indoor navigation application in
+  Unity}
+    \field{year}{2019}
+  \endentry
+
+  \entry{setupRPI}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=FRP}{%
+         family={Foundation},
+         familyi={F\bibinitperiod},
+         given={Raspberry\bibnamedelima Pi},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FRP1}
+    \strng{fullhash}{FRP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up}}
+    \field{title}{Setting up your Raspberry Pi}
+  \endentry
+
+  \entry{headlessRPI}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=FP}{%
+         family={Fromaget},
+         familyi={F\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FP1}
+    \strng{fullhash}{FP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://raspberrytips.com/pi-zero-setup-without-keyboard/}}
+    \field{title}{Install your Raspberry Pi Zero without Keyboard and Monitor}
+    \field{year}{2018}
+  \endentry
+
+  \entry{bluetoothDiscoverable}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=ED}{%
+         family={Ellis},
+         familyi={E\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ED1}
+    \strng{fullhash}{ED1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://medium.com/cemac/keep-bluetooth-discoverable-rpi-unix-bbe1c9ecbdb6}}
+    \field{title}{How to keep Bluetooth discoverable (RPI / Unix )}
+    \field{year}{2020}
+  \endentry
+
+  \entry{helloAR}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=DG}{%
+         family={Developers},
+         familyi={D\bibinitperiod},
+         given={Google},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DG1}
+    \strng{fullhash}{DG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://developers.google.com/ar/develop/unity/tutorials/hello-ar-sample?hl=en}}
+    \field{title}{Explore the HelloAR sample app code}
+    \field{year}{2021}
+  \endentry
+
+  \entry{navMesh}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={Brackeys},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://learn.unity.com/tutorial/unity-navmesh}}
+    \field{title}{Unity NavMesh}
+    \field{year}{2020}
+  \endentry
+
+  \entry{pybluez}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={Pybluez},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://pybluez.github.io/}}
+    \field{title}{Python extension module allowing access to system Bluetooth
+  resources}
+    \field{year}{2019}
+  \endentry
+
+  \entry{miniMap}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={Brackeys},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://www.youtube.com/watch?v=28JTTXqMvOU}}
+    \field{title}{How to make a Minimap in Unity}
+    \field{year}{2017}
+  \endentry
+\enddatalist
+\endinput
