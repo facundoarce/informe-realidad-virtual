@@ -1,4 +1,4 @@
-PWD D:/Documents/Realidad Virtual/Proyecto/Informe/proyecto-realidad-virtual/sections
+PWD D:/Documents/Realidad Virtual/Proyecto/Informe/informe-realidad-virtual/sections
 INPUT c:/texlive/2019/texmf.cnf
 INPUT c:/texlive/2019/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -530,6 +530,15 @@ INPUT ../images/navmeshsurface.PNG
 INPUT ../external/arrowPlacer.cs
 INPUT ../external/arrowPlacer.cs
 INPUT ../external/arrowPlacer.cs
+INPUT ../images/audio_manager.PNG
+INPUT ../images/audio_manager.PNG
+INPUT ../images/audio_manager.PNG
+INPUT ../external/audioManager.cs
+INPUT ../external/audioManager.cs
+INPUT ../external/audioManager.cs
+INPUT ../external/arrowPlacerAudio.cs
+INPUT ../external/arrowPlacerAudio.cs
+INPUT ../external/arrowPlacerAudio.cs
 INPUT c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT ../external/bt_server.py

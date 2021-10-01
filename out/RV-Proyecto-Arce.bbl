@@ -141,6 +141,22 @@
     \field{year}{2020}
   \endentry
 
+  \entry{sound}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={Brackeys},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://www.youtube.com/watch?v=6OT43pvUyfY}}
+    \field{title}{Introduction to AUDIO in Unity}
+    \field{year}{2017}
+  \endentry
+
   \entry{pybluez}{misc}{}
     \name{author}{1}{}{%
       {{hash=P}{%

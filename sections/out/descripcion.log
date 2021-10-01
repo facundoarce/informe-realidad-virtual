@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.22)  27 SEP 2021 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.22)  30 SEP 2021 23:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1599,7 +1599,7 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 <../images/arquitectura_aplicacion.png, id=44, 786.83963pt x 379.71863pt>
 File: ../images/arquitectura_aplicacion.png Graphic file (type png)
 <use ../images/arquitectura_aplicacion.png>
-Package pdftex.def Info: ../images/arquitectura_aplicacion.png  used on input line 32.
+Package pdftex.def Info: ../images/arquitectura_aplicacion.png  used on input line 33.
 (pdftex.def)             Requested size: 452.9679pt x 218.60303pt.
  [1
 
@@ -1607,15 +1607,15 @@ Package pdftex.def Info: ../images/arquitectura_aplicacion.png  used on input li
 
 AED: lastpage setting LastPage
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
  (./out//descripcion.aux
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
 Package cleveref Info: loaded `spanish' language definitions on input line 39.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
 Package rerunfilecheck Info: File `descripcion.out' has not changed.
 (rerunfilecheck)             Checksum: 6B7D52D1274ACD46A06C0AF3564186BB;183.
 Package logreq Info: Writing requests to 'descripcion.run.xml'.
@@ -1631,7 +1631,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,6n,122p,1200b,2123s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
-Output written on ./out//descripcion.pdf (2 pages, 1292605 bytes).
+Output written on ./out//descripcion.pdf (2 pages, 1292691 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream

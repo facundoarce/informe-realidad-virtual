@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.22)  26 SEP 2021 07:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.22)  30 SEP 2021 21:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1617,15 +1617,15 @@ AED: lastpage setting LastPage
 [1
 
 {c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
  (./out//introduccion.aux
 LaTeX Info: Redefining \. on input line 51.
 LaTeX Info: Redefining \% on input line 51.
 Package cleveref Info: loaded `spanish' language definitions on input line 51.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 32.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 32.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
 Package rerunfilecheck Info: File `introduccion.out' has not changed.
 (rerunfilecheck)             Checksum: 9DC789225F8E2463FE0C37D1F04B0690;169.
 
@@ -1643,14 +1643,14 @@ Package logreq Info: Writing requests to 'introduccion.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  47211 strings out of 492162
- 906697 string characters out of 6129062
- 1328290 words of memory out of 5000000
+ 906685 string characters out of 6129062
+ 1328270 words of memory out of 5000000
  50845 multiletter control sequences out of 15000+600000
  590268 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,122p,1201b,2123s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
-Output written on ./out//introduccion.pdf (1 page, 92445 bytes).
+Output written on ./out//introduccion.pdf (1 page, 92485 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream

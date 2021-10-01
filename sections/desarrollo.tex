@@ -221,6 +221,35 @@ Si el usuario sale del volumen del colisionador del pin, entrará nuevamente en 
 
 \lstinputlisting[language = {[Sharp]C}, caption = {Código para el manejo de elementos de realidad aumentada}, label = {lis:arrowPlacer}]{../external/arrowPlacer.cs}
 
+\subsubsection{Navegación por indicaciones de voz}
+
+Para complementar las instrucciones de navegación visuales, se añaden además instrucciones sonoras.
+En primer lugar, se crean los archivos de sonido con una herramienta de texto-a-voz, como por ejemplo \href{https://notevibes.com/}{Notevibes}.
+Las instrucciones de voz generadas son ``Gire a la derecha'', ``Gire a la izquierda'', ``Continúe derecho' y ``Ha llegado a destino''.
+
+Siguiendo el \href{https://www.youtube.com/watch?v=6OT43pvUyfY}{siguiente tutorial} \cite{sound}, se puede añadir audio a una aplicación de Unity.
+Se crea una clase \textit{Sound} para albergar el archivo, nombre y propiedades como volumen y tono de cada sonido.
+Luego, se crea un objeto \textit{Audio Manager} con un script para controlar la reproducción de sonido en la aplicación al que se le asocian los objetos \textit{Sound} desde el inspector como muestra la \cref{fig:audio_manager}.
+
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[width=0.55\linewidth, keepaspectratio]{audio_manager}
+  \caption{\textit{Audio Manager} en el inspector de Unity.}
+  \label{fig:audio_manager}
+\end{figure}
+
+El \cref{lis:audioManager} describe la función de \textit{Audio Manager} a la que se llama para reproducir audio.
+Se utiliza una corrutina para esperar hasta que cualquier otra pista de audio termine de reproducirse para poder reproducir una nueva, de esta manera, se evita que se superpongan.
+
+\lstinputlisting[language = {[Sharp]C}, caption = {Código para manejar la reproducción de audio.}, label = {lis:audioManager}]{../external/audioManager.cs}
+
+Se añade el código en \cref{lis:arrowPlacerAudio} al scrip de \textit{ArrowPlacer} descripto previamente.
+Cuando se crea una nueva flecha, se utiliza el ángulo calculado para determinar cuál instrucción reproducir.
+Se compara con el ángulo de la flecha anterior para no estar constantemente repitiendo el mismo comando y sólo reproducir la instrucción cuando ésta sea la primera o bien distinta de la anterior.
+Cuando se llega a destino y se coloca el objeto pin, se reproduce también la indicación correspondiente.
+
+\lstinputlisting[language = {[Sharp]C}, caption = {Código agregado a \textit{ArrowPlacer} para reproducir la indicación de voz según la flecha o pin que aparece en pantalla.}, label = {lis:arrowPlacerAudio}]{../external/arrowPlacerAudio.cs}
+
 \subsection{Descarga de datos}
 
 \subsubsection{Servidor en Raspberry Pi}
@@ -280,21 +309,21 @@ En la interfaz principal, \cref{fig:ui_main}, hay un menú desplegable en la esq
 
 \begin{figure}[ht!]
 \centering
-\begin{subfigure}[b]{0.65\textwidth}
+\begin{subfigure}[b]{0.70\textwidth}
    \includegraphics[width=1\linewidth,keepaspectratio]{ui_main}
    \caption{Pantalla principal.}
    \label{fig:ui_main}
 \end{subfigure}
 \vspace{1em}
 
-\begin{subfigure}[b]{0.65\textwidth}
+\begin{subfigure}[b]{0.70\textwidth}
    \includegraphics[width=1\linewidth,keepaspectratio]{ui_menu}
    \caption{Menú de configuraciones.}
    \label{fig:ui_menu}
 \end{subfigure}
 \vspace{1em}
 
-\begin{subfigure}[b]{0.65\textwidth}
+\begin{subfigure}[b]{0.70\textwidth}
    \includegraphics[width=1\linewidth,keepaspectratio]{ui_map_download}
    \caption{Menú para descarga de datos del mapa.}
    \label{fig:ui_map_download}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.22)  29 SEP 2021 12:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.22)  1 OCT 2021 01:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1602,12 +1602,12 @@ LaTeX Info: Redefining \. on input line 5.
 LaTeX Info: Redefining \% on input line 5.
 Package cleveref Info: loaded `spanish' language definitions on input line 5.
  (./sections/cover.tex
-<images/logo-uncuyo-long.png, id=115, 519.44063pt x 171.64125pt>
+<images/logo-uncuyo-long.png, id=119, 519.44063pt x 171.64125pt>
 File: images/logo-uncuyo-long.png Graphic file (type png)
 <use images/logo-uncuyo-long.png>
 Package pdftex.def Info: images/logo-uncuyo-long.png  used on input line 9.
 (pdftex.def)             Requested size: 154.9853pt x 51.21252pt.
-<logo-fing.png, id=117, 765.6103pt x 171.64125pt>
+<logo-fing.png, id=121, 765.6103pt x 171.64125pt>
 File: logo-fing.png Graphic file (type png)
 <use logo-fing.png>
 Package pdftex.def Info: logo-fing.png  used on input line 10.
@@ -1658,23 +1658,23 @@ Package pdftex.def Info: logo-fing.png  used on input line 40.
  [2
 
 ] (./sections/descripcion.tex
-<images/arquitectura_aplicacion.png, id=170, 786.83963pt x 379.71863pt>
+<images/arquitectura_aplicacion.png, id=175, 786.83963pt x 379.71863pt>
 File: images/arquitectura_aplicacion.png Graphic file (type png)
 <use images/arquitectura_aplicacion.png>
-Package pdftex.def Info: images/arquitectura_aplicacion.png  used on input line 32.
+Package pdftex.def Info: images/arquitectura_aplicacion.png  used on input line 33.
 (pdftex.def)             Requested size: 452.9679pt x 218.60303pt.
 File: logo-fing.png Graphic file (type png)
 <use logo-fing.png>
-Package pdftex.def Info: logo-fing.png  used on input line 45.
+Package pdftex.def Info: logo-fing.png  used on input line 57.
 (pdftex.def)             Requested size: 145.94644pt x 32.72049pt.
  [3
 
- <./images/arquitectura_aplicacion.PNG>])
+])
 File: logo-fing.png Graphic file (type png)
 <use logo-fing.png>
 Package pdftex.def Info: logo-fing.png  used on input line 42.
 (pdftex.def)             Requested size: 145.94644pt x 32.72049pt.
- [4] (./sections/desarrollo.tex
+ [4 <./images/arquitectura_aplicacion.PNG>] (./sections/desarrollo.tex
 File: logo-fing.png Graphic file (type png)
 <use logo-fing.png>
 Package pdftex.def Info: logo-fing.png  used on input line 49.
@@ -1686,17 +1686,17 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 55
  (c:/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<images/arsession_settings.png, id=206, 525.76425pt x 432.11438pt>
+<images/arsession_settings.png, id=211, 525.76425pt x 432.11438pt>
 File: images/arsession_settings.png Graphic file (type png)
 <use images/arsession_settings.png>
 Package pdftex.def Info: images/arsession_settings.png  used on input line 96.
 (pdftex.def)             Requested size: 294.42636pt x 241.98239pt.
-<images/first_person_camera_settings.png, id=207, 256.5585pt x 136.1085pt>
+<images/first_person_camera_settings.png, id=212, 256.5585pt x 136.1085pt>
 File: images/first_person_camera_settings.png Graphic file (type png)
 <use images/first_person_camera_settings.png>
 Package pdftex.def Info: images/first_person_camera_settings.png  used on input line 103.
 (pdftex.def)             Requested size: 294.42636pt x 156.2141pt.
-<images/mapa_solidworks.png, id=211, 1156.32pt x 620.3175pt>
+<images/mapa_solidworks.png, id=216, 1156.32pt x 620.3175pt>
 File: images/mapa_solidworks.png Graphic file (type png)
 <use images/mapa_solidworks.png>
 Package pdftex.def Info: images/mapa_solidworks.png  used on input line 115.
@@ -1706,7 +1706,7 @@ File: logo-fing.png Graphic file (type png)
 Package pdftex.def Info: logo-fing.png  used on input line 118.
 (pdftex.def)             Requested size: 145.94644pt x 32.72049pt.
  [6]
-<images/escala_mapa.png, id=243, 548.0475pt x 333.94763pt>
+<images/escala_mapa.png, id=248, 548.0475pt x 333.94763pt>
 File: images/escala_mapa.png Graphic file (type png)
 <use images/escala_mapa.png>
 Package pdftex.def Info: images/escala_mapa.png  used on input line 122.
@@ -1738,7 +1738,7 @@ File: logo-fing.png Graphic file (type png)
 Package pdftex.def Info: logo-fing.png  used on input line 184.
 (pdftex.def)             Requested size: 145.94644pt x 32.72049pt.
  [11]
-<images/navmeshsurface.png, id=384, 198.44138pt x 146.34676pt>
+<images/navmeshsurface.png, id=389, 198.44138pt x 146.34676pt>
 File: images/navmeshsurface.png Graphic file (type png)
 <use images/navmeshsurface.png>
 Package pdftex.def Info: images/navmeshsurface.png  used on input line 187.
@@ -1752,81 +1752,96 @@ File: logo-fing.png Graphic file (type png)
 <use logo-fing.png>
 Package pdftex.def Info: logo-fing.png  used on input line 30.
 (pdftex.def)             Requested size: 145.94644pt x 32.72049pt.
- [13]) (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2019/09/10 1.8c listings language file
-)
+ [13])
+<images/audio_manager.png, id=441, 315.579pt x 204.765pt>
+File: images/audio_manager.png Graphic file (type png)
+<use images/audio_manager.png>
+Package pdftex.def Info: images/audio_manager.png  used on input line 236.
+(pdftex.def)             Requested size: 249.13371pt x 161.65007pt.
 File: logo-fing.png Graphic file (type png)
 <use logo-fing.png>
-Package pdftex.def Info: logo-fing.png  used on input line 256.
+Package pdftex.def Info: logo-fing.png  used on input line 243.
 (pdftex.def)             Requested size: 145.94644pt x 32.72049pt.
- [14] (./out//../external/bt_server.py
-LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 21.
+ [14 <./images/audio_manager.PNG>] (./out//../external/audioManager.cs) (./out//../external/arrowPlacerAudio.cs
+File: logo-fing.png Graphic file (type png)
+<use logo-fing.png>
+Package pdftex.def Info: logo-fing.png  used on input line 7.
+(pdftex.def)             Requested size: 145.94644pt x 32.72049pt.
+ [15])
+File: logo-fing.png Graphic file (type png)
+<use logo-fing.png>
+Package pdftex.def Info: logo-fing.png  used on input line 277.
+(pdftex.def)             Requested size: 145.94644pt x 32.72049pt.
+ [16]
+(c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+) (./out//../external/bt_server.py
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 20.
  (c:/texlive/2019/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
 File: logo-fing.png Graphic file (type png)
 <use logo-fing.png>
-Package pdftex.def Info: logo-fing.png  used on input line 263.
+Package pdftex.def Info: logo-fing.png  used on input line 292.
 (pdftex.def)             Requested size: 145.94644pt x 32.72049pt.
-
-[15] (./out//../external/bt_client.cs)
+ [17] (./out//../external/bt_client.cs)
 File: logo-fing.png Graphic file (type png)
 <use logo-fing.png>
-Package pdftex.def Info: logo-fing.png  used on input line 274.
+Package pdftex.def Info: logo-fing.png  used on input line 303.
 (pdftex.def)             Requested size: 145.94644pt x 32.72049pt.
- [16] (./out//../external/mapDownload.cs
+ [18] (./out//../external/mapDownload.cs)
 File: logo-fing.png Graphic file (type png)
 <use logo-fing.png>
-Package pdftex.def Info: logo-fing.png  used on input line 43.
+Package pdftex.def Info: logo-fing.png  used on input line 309.
 (pdftex.def)             Requested size: 145.94644pt x 32.72049pt.
- [17])
-<images/ui_main.png, id=592, 392.06474pt x 212.29312pt>
+ [19]
+<images/ui_main.png, id=672, 392.06474pt x 212.29312pt>
 File: images/ui_main.png Graphic file (type png)
 <use images/ui_main.png>
-Package pdftex.def Info: images/ui_main.png  used on input line 284.
-(pdftex.def)             Requested size: 294.42636pt x 159.42352pt.
-<images/ui_menu.png, id=593, 399.59288pt x 216.81pt>
+Package pdftex.def Info: images/ui_main.png  used on input line 313.
+(pdftex.def)             Requested size: 317.07614pt x 171.68762pt.
+<images/ui_menu.png, id=673, 399.59288pt x 216.81pt>
 File: images/ui_menu.png Graphic file (type png)
 <use images/ui_menu.png>
-Package pdftex.def Info: images/ui_menu.png  used on input line 291.
-(pdftex.def)             Requested size: 294.42636pt x 159.75868pt.
-<images/ui_map_download.png, id=594, 400.79738pt x 221.32687pt>
+Package pdftex.def Info: images/ui_menu.png  used on input line 320.
+(pdftex.def)             Requested size: 317.07614pt x 172.04883pt.
+<images/ui_map_download.png, id=674, 400.79738pt x 221.32687pt>
 File: images/ui_map_download.png Graphic file (type png)
 <use images/ui_map_download.png>
-Package pdftex.def Info: images/ui_map_download.png  used on input line 298.
-(pdftex.def)             Requested size: 294.42636pt x 162.59053pt.
+Package pdftex.def Info: images/ui_map_download.png  used on input line 327.
+(pdftex.def)             Requested size: 317.07614pt x 175.09958pt.
 )
 File: logo-fing.png Graphic file (type png)
 <use logo-fing.png>
 Package pdftex.def Info: logo-fing.png  used on input line 44.
 (pdftex.def)             Requested size: 145.94644pt x 32.72049pt.
- [18]
+ [20]
 File: logo-fing.png Graphic file (type png)
 <use logo-fing.png>
 Package pdftex.def Info: logo-fing.png  used on input line 44.
 (pdftex.def)             Requested size: 145.94644pt x 32.72049pt.
- [19 <./images/ui_main.PNG> <./images/ui_menu.PNG> <./images/ui_map_download.PNG>] (./sections/resultados.tex
-<images/captura_1.jpg, id=626, 481.8pt x 989.6975pt>
+ [21 <./images/ui_main.PNG> <./images/ui_menu.PNG> <./images/ui_map_download.PNG>] (./sections/resultados.tex
+<images/captura_1.jpg, id=702, 481.8pt x 989.6975pt>
 File: images/captura_1.jpg Graphic file (type jpg)
 <use images/captura_1.jpg>
 Package pdftex.def Info: images/captura_1.jpg  used on input line 24.
 (pdftex.def)             Requested size: 86.065pt x 176.77872pt.
-<images/captura_2.jpg, id=627, 481.8pt x 989.6975pt>
+<images/captura_2.jpg, id=703, 481.8pt x 989.6975pt>
 File: images/captura_2.jpg Graphic file (type jpg)
 <use images/captura_2.jpg>
 Package pdftex.def Info: images/captura_2.jpg  used on input line 31.
 (pdftex.def)             Requested size: 86.065pt x 176.77872pt.
-<images/captura_3.jpg, id=628, 481.8pt x 989.6975pt>
+<images/captura_3.jpg, id=704, 481.8pt x 989.6975pt>
 File: images/captura_3.jpg Graphic file (type jpg)
 <use images/captura_3.jpg>
 Package pdftex.def Info: images/captura_3.jpg  used on input line 38.
 (pdftex.def)             Requested size: 86.065pt x 176.77872pt.
-<images/captura_4.jpg, id=629, 481.8pt x 989.6975pt>
+<images/captura_4.jpg, id=705, 481.8pt x 989.6975pt>
 File: images/captura_4.jpg Graphic file (type jpg)
 <use images/captura_4.jpg>
 Package pdftex.def Info: images/captura_4.jpg  used on input line 45.
 (pdftex.def)             Requested size: 86.065pt x 176.77872pt.
-<images/captura_5.jpg, id=630, 481.8pt x 989.6975pt>
+<images/captura_5.jpg, id=706, 481.8pt x 989.6975pt>
 File: images/captura_5.jpg Graphic file (type jpg)
 <use images/captura_5.jpg>
 Package pdftex.def Info: images/captura_5.jpg  used on input line 52.
@@ -1836,18 +1851,18 @@ File: logo-fing.png Graphic file (type png)
 <use logo-fing.png>
 Package pdftex.def Info: logo-fing.png  used on input line 46.
 (pdftex.def)             Requested size: 145.94644pt x 32.72049pt.
- [20
+ [22
 
  <./images/captura_1.jpg> <./images/captura_2.jpg> <./images/captura_3.jpg> <./images/captura_4.jpg> <./images/captura_5.jpg>] (./sections/conclusiones.tex)
 File: logo-fing.png Graphic file (type png)
 <use logo-fing.png>
 Package pdftex.def Info: logo-fing.png  used on input line 48.
 (pdftex.def)             Requested size: 145.94644pt x 32.72049pt.
- [21
+ [23
 
 ]
-Overfull \hbox (30.95396pt too wide) in paragraph at lines 53--53
-[]\T1/lmr/m/n/10 Patrick Fro-ma-get. \T1/lmr/m/it/10 Ins-tall your Rasp-berry Pi Ze-ro wit-hout Key-board and Mo-ni-tor\T1/lmr/m/n/10 . []$\T1/lmtt/m/n/10 https : / / raspberrytips .
+Overfull \hbox (3.84378pt too wide) in paragraph at lines 53--53
+[]\T1/lmr/m/n/10 Pybluez. \T1/lmr/m/it/10 Pyt-hon ex-ten-sion mo-du-le allo-wing ac-cess to sys-tem Blue-tooth re-sour-ces\T1/lmr/m/n/10 . []$\T1/lmtt/m/n/10 https : / / pybluez .
  []
 
 
@@ -1856,7 +1871,7 @@ File: logo-fing.png Graphic file (type png)
 <use logo-fing.png>
 Package pdftex.def Info: logo-fing.png  used on input line 54.
 (pdftex.def)             Requested size: 145.94644pt x 32.72049pt.
-[22
+[24
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
@@ -1872,24 +1887,24 @@ Package cleveref Info: loaded `spanish' language definitions on input line 40.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `RV-Proyecto-Arce.out' has not changed.
-(rerunfilecheck)             Checksum: EA79FC2C28072C18BD48AA82FF27B5B6;1439.
+(rerunfilecheck)             Checksum: 11FE4C5EA3E086D3BD4F95377D2D4304;1536.
 Package logreq Info: Writing requests to 'RV-Proyecto-Arce.run.xml'.
 \openout1 = `RV-Proyecto-Arce.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48823 strings out of 492162
- 929085 string characters out of 6129062
- 1535843 words of memory out of 5000000
- 52039 multiletter control sequences out of 15000+600000
+ 48926 strings out of 492162
+ 930823 string characters out of 6129062
+ 1536279 words of memory out of 5000000
+ 52082 multiletter control sequences out of 15000+600000
  640979 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,122p,1205b,2858s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,16n,122p,1205b,2818s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on ./out//RV-Proyecto-Arce.pdf (23 pages, 2885310 bytes).
+Output written on ./out//RV-Proyecto-Arce.pdf (25 pages, 2937490 bytes).
 PDF statistics:
- 768 PDF objects out of 1000 (max. 8388607)
- 685 compressed objects within 7 object streams
- 331 named destinations out of 1000 (max. 500000)
- 357 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 857 PDF objects out of 1000 (max. 8388607)
+ 769 compressed objects within 8 object streams
+ 385 named destinations out of 1000 (max. 500000)
+ 370 words of extra memory for PDF output out of 10000 (max. 10000000)
 

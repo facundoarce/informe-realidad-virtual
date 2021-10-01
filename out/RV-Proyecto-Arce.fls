@@ -1,4 +1,4 @@
-PWD D:/Documents/Realidad Virtual/Proyecto/Informe/proyecto-realidad-virtual
+PWD D:/Documents/Realidad Virtual/Proyecto/Informe/informe-realidad-virtual
 INPUT c:/texlive/2019/texmf.cnf
 INPUT c:/texlive/2019/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -634,12 +634,27 @@ INPUT ./out//../external/arrowPlacer.cs
 INPUT ./out//../external/arrowPlacer.cs
 INPUT logo-fing.png
 INPUT ./logo-fing.png
+INPUT images/audio_manager.PNG
+INPUT ./images/audio_manager.PNG
+INPUT ./images/audio_manager.PNG
+INPUT logo-fing.png
+INPUT ./logo-fing.png
+INPUT ./out//../external/audioManager.cs
+INPUT ./out//../external/audioManager.cs
+INPUT ./out//../external/audioManager.cs
+INPUT ./out//../external/audioManager.cs
+INPUT ./out//../external/arrowPlacerAudio.cs
+INPUT ./out//../external/arrowPlacerAudio.cs
+INPUT ./out//../external/arrowPlacerAudio.cs
+INPUT ./out//../external/arrowPlacerAudio.cs
+INPUT logo-fing.png
+INPUT ./logo-fing.png
+INPUT logo-fing.png
+INPUT ./logo-fing.png
 INPUT c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT ./out//../external/bt_server.py
-INPUT logo-fing.png
-INPUT ./logo-fing.png
 INPUT ./out//../external/bt_server.py
 INPUT ./out//../external/bt_server.py
 INPUT ./out//../external/bt_server.py

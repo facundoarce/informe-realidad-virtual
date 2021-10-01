@@ -12,13 +12,13 @@ En el presente proyecto se desarrolló una aplicación para teléfonos Android e
 El abordaje del desarrollo de la aplicación se dividió en varios subsistemas. En primer lugar, un sistema de seguimiento de posición provisto por la plataforma ARCore basada en algoritmos de localización y mapeo simultáneos SLAM a partir del procesamiento de imágenes de la cámara y de datos de sensores inerciales.
 También se cuenta con un sistema de calibración por decodificación de códigos QR para la ubicación inicial y subsecuentes relocalizaciones para corregir errores de posicionamiento.
 Se implementó un sistema de navegación para encontrar el camino hasta la ubicación.
-El camino es indicado al usuario, por un lado, marcando la línea a seguir en el minimapa y, por otro lado, colocando objetos de realidad aumentada como flechas para indicar la dirección a seguir y un pin para indicar que se ha llegado a destino.
+El camino es indicado al usuario, por un lado, marcando la línea a seguir en el minimapa, por otro lado, colocando objetos de realidad aumentada como flechas para indicar la dirección a seguir y un pin para indicar que se ha llegado a destino y, por último, con indicaciones de voz.
 Se realizó también un sistema de comunicación cliente-servidor a través de Bluetooth para descargar datos de navegación desde otro dispositivo de manera remota.
 El útimo subsistema es la interfaz gráfica que se diseñó para que el usuario pueda controlar y entender las funcionalidades de la aplicación de forma fácil e intuitiva.
 
 Se probó la aplicación en el departamento del autor del proyecto y pudo comprobarse su correcto funcionamiento, así como las dificultades y errores intrínsecos a la solución elegida para la navegación de interiores.
 
-Se deja como trabajo futuro la posibilidad de que el mapa completo se descargue desde un dispositivo externo y no solamente los puntos de referencia, la adición de indicaciones de voz para la navegación, la mejora del sistema de calibración calculando la distancia y orientación del usuario respecto al código QR para una reubicación más precisa, y sobre todo, la mejora de la precisión del sistema de seguimiento.
+Se deja como trabajo futuro la posibilidad de que el mapa completo se descargue desde un dispositivo externo y no solamente los puntos de referencia, la mejora del sistema de calibración calculando la distancia y orientación del usuario respecto al código QR para una reubicación más precisa, y sobre todo, la mejora de la precisión del sistema de seguimiento.
 Las técnicas de SLAM con cámaras son todavía muy recientes y se encuentran en constante mejora.
 Es un deseo del autor que, en un futuro cercano, esta tecnología esté lo suficiente madura para el uso comercial de asistentes de navegación en interiores.
 

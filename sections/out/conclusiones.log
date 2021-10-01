@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.22)  28 SEP 2021 22:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.22)  30 SEP 2021 23:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1628,7 +1628,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,6n,122p,1201b,2123s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on ./out//conclusiones.pdf (1 page, 59327 bytes).
+Output written on ./out//conclusiones.pdf (1 page, 59317 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
